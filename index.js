@@ -3,7 +3,8 @@ datashare.registerFilter({
   options: {
     name: 'namedEntityEmail',
     key: 'byMentions',
-    category: 'EMAIL'
+    category: 'EMAIL',
+    isSearchable: true
   }
 })
 
